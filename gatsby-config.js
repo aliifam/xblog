@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `xBlog`,
+    title: `AliifBlog`,
     description: `Simple blog starter built with GatsbyJS and NetlifyCMS`,
-    author: `Ahmad Zakiy`,
+    author: `Aliif Arief`,
   },
   plugins: [
     `gatsby-plugin-dark-mode`,
