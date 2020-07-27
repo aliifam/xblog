@@ -53,8 +53,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `xBlog`,
-        short_name: `xBlog`,
+        name: `AliifBlog`,
+        short_name: `Ablog`,
         start_url: `/`,
         background_color: `#232323`,
         theme_color: `#232323`,
