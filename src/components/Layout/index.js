@@ -25,7 +25,7 @@ class Layout extends Component {
               <small>
                 {`© ${new Date().getFullYear()}, ${
                   data.site.siteMetadata.title
-                } is another thing from ${data.site.siteMetadata.author}`}
+                } is Personal Blog of ${data.site.siteMetadata.author}`}
               </small>
             </footer>
           </div>
