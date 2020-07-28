@@ -11,6 +11,6 @@ hello everybody welcome to my personal blog this blog is build using gatsby as a
 
 i make this blog for learning aboout gasbbyjs or Jamstack.
 
-> `keep learn`
+> *keep learn*
 
 stay tune for my next article
