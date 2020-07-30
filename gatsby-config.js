@@ -59,7 +59,7 @@ module.exports = {
         background_color: `#232323`,
         theme_color: `#232323`,
         display: `standalone`,
-        icon: `src/images/aliiflogo.png`, // This path is relative to the root of the site.
+        icon: `src/images/logoaliif.jpg`, // This path is relative to the root of the site.
       },
     },
     {
