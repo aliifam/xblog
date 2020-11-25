@@ -11,7 +11,7 @@ class BlogPage extends Component {
   render() {
     const { data } = this.props
     const { markdownRemark: post } = data
-    const { disqusConfig } = this.props
+    const { disqusConfig } = url: `${config.siteUrl+location.pathname}`
   
 
     return (
@@ -23,6 +23,7 @@ class BlogPage extends Component {
         <div className="blog-wrapper">
           <span>{`${post.frontmatter.date} - ${post.timeToRead} min Read`}</span>
           <h1 className="title">{post.frontmatter.title}</h1>
+          <CommentCount config={disqusConfig} placeholder={'...'} />
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
            <Disqus config={disqusConfig} />
         </div>
