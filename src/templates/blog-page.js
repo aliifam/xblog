@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import { graphql } from "gatsby"
+import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
 
 import Layout from "../components/Layout"
 import SEO from "../components/Seo"
@@ -10,6 +11,12 @@ class BlogPage extends Component {
   render() {
     const { data } = this.props
     const { markdownRemark: post } = data
+    const BlogPage = () => {
+        let disqusConfig = {
+    url: `${config.siteUrl+location.pathname}`,
+    identifier: post.id,
+    title: post.title,
+  }
 
     return (
       <Layout>
@@ -22,6 +29,7 @@ class BlogPage extends Component {
           <h1 className="title">{post.frontmatter.title}</h1>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
+        <Disqus config={disqusConfig} />
       </Layout>
     )
   }
