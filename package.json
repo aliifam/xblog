@@ -15,6 +15,7 @@
     "gatsby-plugin-sass": "^2.0.10",
     "gatsby-plugin-sharp": "^2.0.22",
     "gatsby-plugin-typography": "^2.2.10",
+    "gatsby-plugin-disqus/lib",
     "gatsby-remark-prismjs": "^3.3.29",
     "gatsby-source-filesystem": "^2.0.28",
     "gatsby-transformer-remark": "^2.3.8",
@@ -56,12 +57,5 @@
   },
   "bugs": {
     "url": "https://github.com/ahmadzakiy/xblog/issues"
-  },
-  {
-"private": true,
-"workspaces": [
-	"your-example-test-site",
-	"gatsby-plugin-disqus/lib"
-]
-}
+  }
 }
