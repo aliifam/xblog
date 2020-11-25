@@ -12,7 +12,12 @@ class BlogPage extends Component {
     const { data } = this.props
     const { markdownRemark: post } = data
     const { disqusConfig } = this.props
-  
+ const PostTemplate = () => {
+  let disqusConfig = {
+    url: `${config.siteUrl+location.pathname}`,
+    identifier: post.id,
+    title: post.title,
+  }
 
     return (
       <Layout>
@@ -30,7 +35,7 @@ class BlogPage extends Component {
     )
   }
 }
-
+export default PostTemplate
 export default BlogPage
 
 export const query = graphql`
