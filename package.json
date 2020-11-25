@@ -56,5 +56,12 @@
   },
   "bugs": {
     "url": "https://github.com/ahmadzakiy/xblog/issues"
-  }
+  },
+  {
+"private": true,
+"workspaces": [
+	"your-example-test-site",
+	"gatsby-plugin-disqus/lib"
+]
+}
 }
