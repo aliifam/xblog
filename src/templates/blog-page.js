@@ -11,11 +11,7 @@ class BlogPage extends Component {
   render() {
     const { data } = this.props
     const { markdownRemark: post } = data
-    let disqusConfig = {
-    url: `${siteUrl+location.pathname}`,
-    identifier: post.id,
-    title: post.title,
-    }
+    const { disqusConfig } = this.props
   
 
     return (
