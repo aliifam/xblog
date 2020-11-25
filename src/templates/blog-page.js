@@ -12,7 +12,7 @@ class BlogPage extends Component {
     const { data } = this.props
     const { markdownRemark: post } = data
     let disqusConfig = {
-    url: `${config.siteUrl+location.pathname}`,
+    url: `${siteUrl+location.pathname}`,
     identifier: post.id,
     title: post.title,
     }
