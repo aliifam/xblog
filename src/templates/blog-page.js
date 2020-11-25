@@ -24,8 +24,8 @@ class BlogPage extends Component {
           <span>{`${post.frontmatter.date} - ${post.timeToRead} min Read`}</span>
           <h1 className="title">{post.frontmatter.title}</h1>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
+           <Disqus config={disqusConfig} />
         </div>
-        <Disqus config={disqusConfig} />
       </Layout>
     )
   }
