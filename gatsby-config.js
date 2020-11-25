@@ -86,7 +86,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
-        shortname: `praditautama`
+        shortname: `aliifblog`
       },
     },
     "gatsby-plugin-netlify-cms",
