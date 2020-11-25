@@ -15,7 +15,7 @@
     "gatsby-plugin-sass": "^2.0.10",
     "gatsby-plugin-sharp": "^2.0.22",
     "gatsby-plugin-typography": "^2.2.10",
-    "gatsby-plugin-disqus/lib",
+    "gatsby-plugin-disqus": "^1.1.0",
     "gatsby-remark-prismjs": "^3.3.29",
     "gatsby-source-filesystem": "^2.0.28",
     "gatsby-transformer-remark": "^2.3.8",
