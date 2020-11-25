@@ -23,7 +23,6 @@ class BlogPage extends Component {
         <div className="blog-wrapper">
           <span>{`${post.frontmatter.date} - ${post.timeToRead} min Read`}</span>
           <h1 className="title">{post.frontmatter.title}</h1>
-          <CommentCount config={disqusConfig} placeholder={'...'} />
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
            <Disqus config={disqusConfig} />
         </div>
