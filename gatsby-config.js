@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `AliifBlog`,
-    description: `Simple blog starter built with GatsbyJS and NetlifyCMS`,
+    description: `Blog pribadi punya Aliif yang kadang nulis`,
     author: `Aliif Arief`,
   },
   plugins: [
