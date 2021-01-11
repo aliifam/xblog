@@ -1,3 +1,4 @@
+ 
 import React, { Component } from "react"
 import { graphql } from "gatsby"
 import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
@@ -11,11 +12,7 @@ class BlogPage extends Component {
   render() {
     const { data } = this.props
     const { markdownRemark: post } = data
-    let disqusConfig = {
-    url: `${config.siteUrl+location.pathname}`,
-    identifier: post.id,
-    title: post.title,
-  }
+    const { disqusConfig } = this.props
 
     return (
       <Layout>
@@ -55,4 +52,3 @@ export const query = graphql`
     }
   }
 `
-
